@@ -1,11 +1,57 @@
+#main{
+   margin: 20px 40px;
+   padding: 20px;
+   background-color: rgb(216, 225, 216);
+   /* text-align: center; */
+}
+
+.heading{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #image {
-    max-width: fit-content;
     height: auto;
 }
 #img-div {
+    margin-top: 20px;
     display: block;
     text-align: center;
 }
 #title {
     text-align: center;
+
+}
+
+h3{
+    text-align: center;
+}
+
+.timeline{
+    display: block;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline li{
+    padding: 5px;
+}
+
+h3 a{
+    color: rgb(108, 97, 97);
+    transition: all 0.3s ease-in-out;
+}
+
+h3 a:hover{
+    color: rgb(37, 47, 39);
 }
